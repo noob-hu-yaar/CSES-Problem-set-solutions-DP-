@@ -13,7 +13,7 @@ int main()
     int S = n*(n+1)/2; //calculate total sum 1 to n
     int s = S/2; // total sum / 2 = requires sum of each subset
 
-    vector<vector<int>> dp(n+1,vector<int>(s+1,0)); //2D array declared
+    vector<vector<int>> dp(n+1,vector<int>(s+1,0)); //2D vector declared
     //dp[i][sum] = no. of ways to make sum using numbers 0 to i
 
     
